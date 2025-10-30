@@ -1,12 +1,32 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class HUD : MonoBehaviour
 {
     
+    [Header("UI Buttons")]
+    public Button levelButton;
+
     [SerializeField] public string LevelName;
+
+     private void Start()
+    {
+        // Par défaut, seul le niveau 1 est débloqué
+        int unlockedLevel = PlayerPrefs.GetInt("UnlockedLevel", 1);
+
+        // Si le joueur n’a PAS fini le niveau 1, cache le bouton "Level"
+        if (unlockedLevel <= 1)
+        {
+            levelButton.gameObject.SetActive(false);
+        }
+        else
+        {
+            levelButton.gameObject.SetActive(true);
+        }
+    }
 
     public void PlayButton()
     {

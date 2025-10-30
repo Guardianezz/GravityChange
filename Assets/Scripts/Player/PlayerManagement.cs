@@ -100,4 +100,5 @@ public class PlayerManagement : MonoBehaviour
             Physics2D.gravity = new Vector2(0, -9.81f);
         }
     }
+    
 }
