@@ -765,6 +765,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d57a2f5da054124f8f162c9186bdccf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelButton: {fileID: 0}
   LevelName: 
 --- !u!1 &2189413157656117134
 GameObject:
@@ -857,6 +858,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d57a2f5da054124f8f162c9186bdccf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelButton: {fileID: 0}
   LevelName: 
 --- !u!1 &4782099298410027909
 GameObject:
@@ -2081,7 +2083,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8863937638161097029
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2232,4 +2234,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d57a2f5da054124f8f162c9186bdccf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelButton: {fileID: 0}
   LevelName: 

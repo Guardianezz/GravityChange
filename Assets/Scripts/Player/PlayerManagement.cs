@@ -56,7 +56,7 @@ public class PlayerManagement : MonoBehaviour
 
     private void GravityFlip()
     {
-        if (isGrounded && Input.GetKeyDown(KeyCode.G))
+        if (isGrounded && Input.GetKeyDown(KeyCode.Space))
         {
             gravityFlipped = !gravityFlipped;
 
